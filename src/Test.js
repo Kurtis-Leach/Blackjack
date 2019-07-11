@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     })
 
     stayBtn.addEventListener('click', ()=>{
+        console.log('CLIICIICIKCKK')
         user.stay()
         hitBtn.style.display = 'none'
         stayBtn.style.display = 'none'
